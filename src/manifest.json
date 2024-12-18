@@ -1,20 +1,21 @@
 {
-  "manifest_version": 3,
-  "name": "ShareX",
-  "version": "2.1.0",
+  "author": "BrycensRanch & ShareX Team",
+  "background": {
+    "service_worker": "eventPage.js"
+  },
   "description": "Adds 'Upload with ShareX' button to image, video, audio and text selection context menu.",
-  "author": "ShareX Team",
-  "homepage_url": "https://getsharex.com",
+  "homepage_url": "https://github.com/BrycensRanch/ShareX-Linux-Port",
   "icons": {
     "16": "Icons/ShareX-16.png",
     "48": "Icons/ShareX-48.png",
-    "128": "Icons/ShareX-128.png"
+    "128": "Icons/ShareX-128.png",
+    "256": "Icons/ShareX-256.png"
   },
+  "manifest_version": 3,
+  "name": "ShareX-Linux",
   "permissions": [
     "contextMenus",
     "nativeMessaging"
   ],
-  "background": {
-    "service_worker": "eventPage.js"
-  }
+  "version": "0.1.0"
 }
