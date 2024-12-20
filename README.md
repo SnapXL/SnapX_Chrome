@@ -1,6 +1,6 @@
-# ShareX_Chrome
+# SnapX_Chrome
 
-This the chrome extension that bridges [ShareX Linux](https://github.com/BrycensRanch/ShareX-Linux-Port) (a desktop application) and Chromium based browsers.
+This the chrome extension that bridges [SnapX](https://github.com/BrycensRanch/SnapX) (a desktop application) and Chromium based browsers.
 
 Additionally, it uses [Manifest V3](https://www.eff.org/deeplinks/2021/12/chrome-users-beware-manifest-v3-deceitful-and-threatening).
 
