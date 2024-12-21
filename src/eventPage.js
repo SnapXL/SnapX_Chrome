@@ -1,5 +1,3 @@
-const application = "io.github.brycensranch.SnapX";
-
 const contextMenuItems = [
     { id: "SnapX_Upload_Image", title: "Upload image with SnapX", contexts: ["image"], action: "UploadImage" },
     { id: "SnapX_Upload_Video", title: "Upload video with SnapX", contexts: ["video"], action: "UploadVideo" },
@@ -28,5 +26,5 @@ chrome.contextMenus.onClicked.addListener((info) => {
         ...(linkUrl && { URL: linkUrl }) 
     };
 
-    chrome.runtime.sendNativeMessage(application, message);
+    chrome.runtime.sendNativeMessage("io.github.brycensranch.snapx", message);
 });
