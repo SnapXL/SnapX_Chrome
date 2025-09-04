@@ -26,5 +26,5 @@ chrome.contextMenus.onClicked.addListener((info) => {
         ...(linkUrl && { URL: linkUrl }) 
     };
 
-    chrome.runtime.sendNativeMessage("io.github.brycensranch.snapx", message);
+    chrome.runtime.sendNativeMessage("io.github.snapxl.snapx", message);
 });
