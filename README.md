@@ -28,4 +28,4 @@ This extension should work on most chromium based browsers with notes of 1st cla
 
 ## License
 
-The code is licensed under the [GNU General Public License v3](./LICENSE.md).
+This code is licensed under the [GNU General Public License v3](./LICENSE.md).
